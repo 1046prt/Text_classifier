@@ -66,12 +66,12 @@ An ensemble learning method that creates multiple decision trees and merges them
    - Evaluated the model using precision, recall, and F1-score.
 
 7. **Prediction**
-   - Tested the model with a custom message like `"Free entry in 2"` to predict whether it’s spam or not.
+   - Tested the model with a custom message like `Congratulations! You've won a $1000 Walmart gift card. Click here to claim now.` to predict whether it’s spam or not.
 
 ---
 # output:
 Precision: 1.0 / Recall: 0.865 / F1-Score: 0.927
-Prediction for "Congratulations! You've won a $1000 Walmart gift card. Click here to claim now.": spam
+Prediction for Congratulations! You've won a $1000 Walmart gift card. Click here to claim now. : spam
 
 ## How to Run
 
